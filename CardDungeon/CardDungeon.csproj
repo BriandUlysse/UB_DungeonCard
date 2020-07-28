@@ -81,6 +81,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Screens\ScreenBase.cs" />
+    <Compile Include="Screens\ScreenCredit.cs" />
     <Compile Include="Screens\ScreenGameMenu.cs" />
     <Compile Include="Screens\ScreenHowToPlay.cs" />
     <Compile Include="Screens\ScreenMenu.cs" />

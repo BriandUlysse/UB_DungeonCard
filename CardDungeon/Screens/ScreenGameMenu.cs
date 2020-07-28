@@ -52,6 +52,10 @@ namespace CardDungeon.Screens
             {
                 this.game.changeScreen(new ScreenHowToPlay(this.game));
             }
+            if (this.btnCredit.IsClicked)
+            {
+                this.game.changeScreen(new ScreenCredit(this.game));
+            }
             if (this.btnQuit.IsClicked)
             {
                 this.game.Exit();
